@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="807f3953-6de6-42b6-8b39-befd43090235" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -13,7 +11,7 @@
     <file path="/a.coffee" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366012240625" ignored="false" />
     <file path="/a.feature" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366012241484" ignored="false" />
     <file path="/index.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366013271296" ignored="false" />
-    <file path="/Dummy.txt" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366019248859" ignored="false" />
+    <file path="/Dummy.txt" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366019632500" ignored="false" />
     <file path="/test.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366018658781" ignored="false" />
     <file path="/Request.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366019609828" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,19 +33,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-7.3448277">
+            <state line="21" column="46" selection-start="936" selection-end="936" vertical-scroll-proportion="0.3210332">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Request.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Request.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/Request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="284" selection-end="284" vertical-scroll-proportion="0.37772396">
+            <state line="15" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="-12.413794">
               <folding>
                 <element signature="e#6#169#0" expanded="true" />
               </folding>
@@ -106,8 +104,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/classes/Request.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -264,7 +262,11 @@
       <created>1366018506359</created>
       <updated>1366018506359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="started work on MVC">
+      <created>1366019639718</created>
+      <updated>1366019639718</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -333,7 +335,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="started work on MVC" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -348,6 +350,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="First commit" />
+    <MESSAGE value="started work on MVC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -374,19 +377,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-7.3448277">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="284" selection-end="284" vertical-scroll-proportion="0.37772396">
+        <state line="15" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="-12.413794">
           <folding>
             <element signature="e#6#169#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="46" selection-start="936" selection-end="936" vertical-scroll-proportion="0.3210332">
+          <folding />
         </state>
       </provider>
     </entry>
