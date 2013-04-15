@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="807f3953-6de6-42b6-8b39-befd43090235" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+    <list default="true" id="807f3953-6de6-42b6-8b39-befd43090235" name="Default" comment="Added .htaccess">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Request.php" afterPath="$PROJECT_DIR$/classes/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="testly.iws" />
@@ -13,9 +11,9 @@
     <file path="/a.coffee" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366012240625" ignored="false" />
     <file path="/a.feature" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366012241484" ignored="false" />
     <file path="/index.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366022405812" ignored="false" />
-    <file path="/Dummy.txt" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366023748234" ignored="false" />
+    <file path="/Dummy.txt" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366025642093" ignored="false" />
     <file path="/test.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366018658781" ignored="false" />
-    <file path="/Request.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366023521125" ignored="false" />
+    <file path="/Request.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366025730812" ignored="false" />
     <file path="/.htaccess" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366022748062" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +50,7 @@
       <file leaf-file-name="Request.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/Request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="255" selection-end="255" vertical-scroll-proportion="0.31343284">
+            <state line="25" column="25" selection-start="505" selection-end="505" vertical-scroll-proportion="0.5520581">
               <folding />
             </state>
           </provider>
@@ -281,14 +279,18 @@
       <created>1366019639718</created>
       <updated>1366019639718</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added .htaccess">
+      <created>1366023788812</created>
+      <updated>1366023788812</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="1004" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -452,7 +454,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="255" selection-end="255" vertical-scroll-proportion="0.31343284">
+        <state line="25" column="25" selection-start="505" selection-end="505" vertical-scroll-proportion="0.5520581">
           <folding />
         </state>
       </provider>
