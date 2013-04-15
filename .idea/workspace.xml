@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="807f3953-6de6-42b6-8b39-befd43090235" name="Default" comment="Added .htaccess">
+    <list default="true" id="807f3953-6de6-42b6-8b39-befd43090235" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/master_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/Request.php" afterPath="$PROJECT_DIR$/classes/Request.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -11,9 +12,9 @@
     <file path="/a.coffee" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366012240625" ignored="false" />
     <file path="/a.feature" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366012241484" ignored="false" />
     <file path="/index.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366022405812" ignored="false" />
-    <file path="/Dummy.txt" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366025642093" ignored="false" />
+    <file path="/Dummy.txt" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366025908953" ignored="false" />
     <file path="/test.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366018658781" ignored="false" />
-    <file path="/Request.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366025730812" ignored="false" />
+    <file path="/Request.php" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366026044484" ignored="false" />
     <file path="/.htaccess" changelist="807f3953-6de6-42b6-8b39-befd43090235" time="1366022748062" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-11.4827585">
+            <state line="27" column="0" selection-start="0" selection-end="1563" vertical-scroll-proportion="-11.4827585">
               <folding>
                 <marker date="1366023402656" expanded="true" signature="310:1262" placeholder="..." />
                 <marker date="1366023402656" expanded="true" signature="909:1262" placeholder="..." />
@@ -50,7 +51,16 @@
       <file leaf-file-name="Request.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes/Request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="25" selection-start="505" selection-end="505" vertical-scroll-proportion="0.5520581">
+            <state line="29" column="0" selection-start="781" selection-end="781" vertical-scroll-proportion="0.501845">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master_view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/master_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="0" selection-start="1563" selection-end="1563" vertical-scroll-proportion="-26.827587">
               <folding />
             </state>
           </provider>
@@ -118,6 +128,7 @@
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/master_view.php" />
         <option value="$PROJECT_DIR$/classes/Request.php" />
       </list>
     </option>
@@ -170,6 +181,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="testly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,7 +308,11 @@
       <created>1366023788812</created>
       <updated>1366023788812</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="set controller, action and params in request.php">
+      <created>1366025912890</created>
+      <updated>1366025912890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -352,7 +381,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .htaccess" />
+    <option name="LAST_COMMIT_MESSAGE" value="set controller, action and params in request.php" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -369,6 +398,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="started work on MVC" />
     <MESSAGE value="Added .htaccess" />
+    <MESSAGE value="set controller, action and params in request.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -434,9 +464,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-11.4827585">
+        <state line="27" column="0" selection-start="0" selection-end="1563" vertical-scroll-proportion="-11.4827585">
           <folding>
             <marker date="1366023402656" expanded="true" signature="310:1262" placeholder="..." />
             <marker date="1366023402656" expanded="true" signature="909:1262" placeholder="..." />
@@ -445,16 +482,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
+    <entry file="file://$PROJECT_DIR$/views/master_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="-0.0">
+        <state line="41" column="0" selection-start="1563" selection-end="1563" vertical-scroll-proportion="-26.827587">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="505" selection-end="505" vertical-scroll-proportion="0.5520581">
+        <state line="29" column="0" selection-start="781" selection-end="781" vertical-scroll-proportion="0.501845">
           <folding />
         </state>
       </provider>
