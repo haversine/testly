@@ -9,9 +9,18 @@
 
 class Request {
 
-	public $controller = DEFAULT_CONTROLLER;
+	public $controller;
 	public $actions = 'index';
 	public $params = array();
 
+	public function __construct(){
+		//echo only if path info exists
+		if(isset($_SERVER['PATH_INFO']))
+		{
+			echo $_SERVER['PATH_INFO'];
+		}
+
+	}
 
 }
+$request = new Request;
