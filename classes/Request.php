@@ -2,12 +2,12 @@
 /** Created by Jetbrains Phpstorm .... */
 class Request
 {
-	public $controller;
+	public $controller = DEFAULT_CONTROLLER;
 	public $action = 'index';
 	public $params = array();
 	public function __construct()
 	{
-		if (isset($_SERVER ['PATH_INFO'])) {
+		if (isset($_SERVER['PATH_INFO'])) {
 			if ($path_info = explode('/', $_SERVER['PATH_INFO'])){ //remove first number of exploded array
 			array_shift($path_info);
 			$this->controller = isset($path_info[0]) ? array_shift($path_info) : 'welcome';
@@ -16,6 +16,10 @@ class Request
 			}
 		}
 
+	}
+
+	public function redirect($destination){
+		header('Location: '.BASE_URL.$destination);
 	}
 }
 $request = new Request;

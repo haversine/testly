@@ -15,6 +15,7 @@ if (isset($controller->requires_auth)){
 }
 $controller->{$request->action}();
 }
-else {echo "The Page '{$request->controller}' does not exist";
+else {
+	echo "The Page '{$request->controller}' does not exist";
 	//var_dump($request->controller);
 }
