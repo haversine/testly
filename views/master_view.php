@@ -46,7 +46,7 @@
 
 <div>
 	<?php
-	global $request;
+
 	require '/views/'.$request->controller.'_'.$request->action.'_view.php';
 	?>
 </div>
