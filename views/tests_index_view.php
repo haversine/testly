@@ -1,19 +1,8 @@
-<?php
+adfsfdgfsdg<?php
 /**
  * Created by JetBrains PhpStorm.
  * User: Madis
  * Date: 17.04.13
- * Time: 11:47
+ * Time: 15:39
  * To change this template use File | Settings | File Templates.
  */
-
-class tests {
-
-	public $requires_auth = true;
-
-	function index(){
-	require 'views/master_view.php';
-	}
-
-
-}
