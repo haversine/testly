@@ -1,4 +1,5 @@
-adfsfdgfsdg<?php
+SUVA TEKST
+<?php
 /**
  * Created by JetBrains PhpStorm.
  * User: Madis
