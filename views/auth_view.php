@@ -2,6 +2,8 @@
 <head>
 	<link href="assets/css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/auth_view.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+
 
 </head>
 <body>

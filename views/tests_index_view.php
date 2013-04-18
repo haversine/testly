@@ -1,9 +1,24 @@
-SUVA TEKST
-<?php
-/**
- * Created by JetBrains PhpStorm.
- * User: Madis
- * Date: 17.04.13
- * Time: 15:39
- * To change this template use File | Settings | File Templates.
- */
+<p>
+	<a class='btn btn-primary' href='http://google.com'>Lisa uus test</a>
+</p>
+<table id="tests-table" class="table table-bordered table-striped">
+	<thead>
+	<th>Testi nimi</th>
+	<th>Koostaja</th>
+	<th>Aeg</th>
+	<th>Tegevused</th>
+	</thead>
+	<tbody>
+	<?if (! empty($tests)): foreach ($tests as $test): ?>
+		<tr id="test <?= $test['test_id'] ?>">
+			<td><?=$test['name']?></td>
+			<td><?=$test['username']?></td>
+			<td><?=$test['date']?></td>
+			<td><?="vaata"?>
+				<i class="icon-pencil"></i></td>
+		</tr>
+		</td>
+		</tr>
+	<? endforeach;endif?>
+	</tbody>
+</table>

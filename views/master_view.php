@@ -15,6 +15,7 @@
 	<meta name="viewport" content="width=device-width">
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
 	<link href="assets/css/bootstrap.css" rel="stylesheet">
 	<link href="assets/css/master_view.css" rel="stylesheet">
 
@@ -46,7 +47,6 @@
 
 <div>
 	<?php
-
 	require '/views/'.$request->controller.'_'.$request->action.'_view.php';
 	?>
 </div>

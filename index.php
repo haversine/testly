@@ -9,6 +9,7 @@ require'classes/database.php';
 if (file_exists('controllers/'.$request->controller.'.php'))
 {
 require 'controllers/'.$request->controller.'.php';
+	//uus controller stringist - nt. 'tests';
 $controller = new $request->controller;
 if (isset($controller->requires_auth)){
 	$_user->require_auth();
